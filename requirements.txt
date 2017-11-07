@@ -1,9 +1,12 @@
+appnope==0.1.0
 asn1crypto==0.23.0
 attrs==17.2.0
 Automat==0.6.0
 beautifulsoup4==4.6.0
 bleach==2.1.1
+certifi==2017.11.5
 cffi==1.11.2
+chardet==3.0.4
 constantly==15.1.0
 cryptography==2.1.2
 cssselect==1.0.1
@@ -47,6 +50,7 @@ python-dateutil==2.6.1
 pyzmq==16.0.2
 qtconsole==4.3.1
 queuelib==1.4.2
+requests==2.18.4
 Scrapy==1.4.0
 service-identity==17.0.0
 simplegeneric==0.8.1
@@ -56,6 +60,7 @@ testpath==0.3.1
 tornado==4.5.2
 traitlets==4.3.2
 Twisted==17.9.0
+urllib3==1.22
 w3lib==1.18.0
 wcwidth==0.1.7
 webencodings==0.5.1
