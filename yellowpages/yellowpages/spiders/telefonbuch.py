@@ -18,7 +18,7 @@ class TelefonbuchSpider(scrapy.Spider):
         self.pages = 0
 
 
-    # Handle the form submission
+    # Handle the homepage
     def parse(self, response):
         logging.info('Scraping {0} in {1}'.format(self.sector,self.city))
         request = scrapy.FormRequest.from_response(response, formid = 'searchForm', formdata = {'what':self.sector, 'where':self.city}, callback = self.parse_results)
